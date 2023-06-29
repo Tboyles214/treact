@@ -172,3 +172,25 @@ li {
   .trusted__customer{
     opacity: 30%;
   }
+
+  .container__features{
+    margin: 56px;
+    padding-top:42px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature__head1{
+    padding-bottom: 24px;
+  }
+
+  .feature__head2{
+    font-size: 40px;
+    padding-bottom: 24px;
+  }
+
+  .feature__para{
+    
+  }
