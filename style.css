@@ -7,6 +7,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+
+p{
+  opacity: .5;
+}
 nav {
   height: 80px;
   display: flex;
@@ -193,21 +197,21 @@ li {
 .feature__blocks {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  padding: 0 16px;
+  justify-content: center;
+  padding: 36px 0  12px 48px;
 }
 
 .feature__block {
   display: flex;
   flex: 0 0 calc(100% / 3); /* Adjust the number of elements per row by changing the denominator */
   /* Additional styles for the element */
-  padding-bottom: 24px;
+  justify-content: center;
+  padding-bottom: 32px;
+
 }
 
 .img__container {
-  padding: 10px;
-  margin: 0 auto;
-  box-sizing: border-box;
+ padding: 10px 10px 10px 10px;
 }
 
 .feature__img {
@@ -219,6 +223,7 @@ li {
 
 .feature__description {
   max-width: 160px;
+  margin-left: 0;
 }
 
 .feature__label {
@@ -227,7 +232,7 @@ li {
 }
 
 .text__container {
-  padding: 8px 16px;
+  padding-left: 8px;
 }
 
 .quality__work--container {
@@ -272,6 +277,247 @@ li {
   border: 1px solid rgba(128, 128, 128, 0.4);
 }
 
+/*STEPS*/
+
 .steps__container{
+  margin-top: 160px;
   display: flex;
+  justify-content: center;
+  
+  margin-left: 48px;
+  
+
 }
+
+.img__steps{
+  margin-right: 16px;
+}
+.step__text{
+  margin-left: 16px;
+  padding-bottom: 16px;
+
+}
+
+.step__number {
+  display: flex;
+  margin-right: 48px; /* Adjust the margin as needed */
+  padding-right: 48px;
+  padding-top: 24px;
+}
+
+.numbers {
+  font-size: 32px; /* Adjust the font size as needed */
+  opacity: 0.25;
+}
+
+.steps__description{
+  padding-top: 4px;
+  padding-left: 16px;
+}
+.steps__title{
+  padding-bottom: 16px;
+}
+
+.img__step{
+margin-top: 48px;  
+max-width: 100%;
+height: auto;
+}
+
+.steps__h5{
+  padding-bottom: 12px;
+}
+
+.steps__h1{
+  font-size: 36px;
+}
+
+.steps__para{
+  opacity: .5;
+  width: 360px;
+  
+}
+
+/*values*/
+
+.values__container{
+  display: flex;
+  align-items: flex-start;
+  margin-top: 160px;
+  margin-left: 48px;
+}
+
+.values__text__container{
+  flex: 2;
+  max-width: 50%;
+  flex-direction: column;
+
+}
+
+
+.values__promise__container{
+  display: flex;
+  padding-bottom: 24px;
+}
+
+.values__promise__header{
+  display: flex;  
+}
+
+.values__image__container{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.values__image{
+  max-width: 90%;
+  height: auto;
+  width: auto;
+  max-height: 80%;
+}
+
+.values__title{
+  padding-bottom: 16px;
+}
+
+.values__heading{
+  padding-bottom: 16px;
+  font-size: 36px;
+}
+
+.values__promise{
+  padding-right: 12px;
+}
+
+.values__description{
+  padding-bottom: 24px;
+}
+
+.values__promise__heading{
+  padding-top: 6px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.values__logo1, .values__logo2 {
+  width: 36px; 
+  height: 36px; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.values__logo1 {
+  background-color: rgba(17, 170, 76, 0.637);
+}
+
+.values__logo2 {
+  background-color: rgba(236, 73, 73, 0.747);
+}
+
+
+.values__logo1{
+  
+  background-color: rgba(17, 170, 76, 0.637)
+}
+
+.values__logo2{
+  background-color: rgba(236, 73, 73, 0.747)
+}
+
+/*pricing*/
+#pricing {
+  text-align: center;
+}
+
+.pricing__text {
+  margin-bottom: 48px;
+}
+
+.pricing__banners {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  
+}
+
+.pricing__banner {
+  border: 1.5px solid rgba(128, 128, 128, 0.4);
+  padding: 24px;
+  flex: 1 1 300px;
+  max-width: 300px;
+  position: relative;
+}
+
+.pricing__banner:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.pricing__header {
+  padding-top: 24px;
+  font-size: 16px;
+}
+
+.pricing__monthly {
+  padding-bottom: 24px; /* Adjusted the padding value */
+  margin-bottom: px; /* Adjusted the margin value */
+}
+
+.pricing__price {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 40px;
+}
+
+.plan__description {
+  padding: 8px 32px; /* Adjusted the padding values */
+  
+ 
+}
+
+.plan__header {
+  padding-top: 48px; /* Adjusted the padding value */
+  border-top: 1.5px solid rgba(128, 128, 128, 0.4);;
+}
+
+.plan__para {
+  padding-top: 8px;
+}
+
+.pricing__button--container {
+  margin-top: 24px;
+  position: relative;
+}
+
+.pricing__button {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 42px;
+  background-color: rgb(100, 21, 255);
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
