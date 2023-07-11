@@ -923,7 +923,64 @@ button:hover{
   .book {
     width: 50%;
   }
+
+  #about{
+    flex-direction: column;
+      
 }
+  .about__picture{
+    width:max-content;
+    
+  }
+
+  #features{
+    flex-direction: column;
+  }
+
+  .quality__work--container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+   .quality__image{
+    margin: 24px;
+    width:80%;
+   } 
+
+   .steps__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .values__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .pricing__banners{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .testimonials__container{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .feature__blocks{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+   }
+
+}
+
+
+
+
 
 .btn__menu {
   background-color: transparent;
