@@ -442,13 +442,7 @@ li {
   background-color: rgba(236, 73, 73, 0.747);
 }
 
-.values__logo1 {
-  background-color: rgba(17, 170, 76, 0.637);
-}
 
-.values__logo2 {
-  background-color: rgba(236, 73, 73, 0.747);
-}
 
 /*pricing*/
 #pricing {
@@ -740,7 +734,7 @@ li {
 
 .get__started__button__one {
   margin-top: 24px;
-  margin-right: 16px;
+ 
   width: 120px;
   height: 40px;
   border: none;
@@ -1005,3 +999,24 @@ button:hover {
 }
 
 
+@media (max-width:480px){
+  .steps__text{
+    margin: 0 auto;
+}
+
+  .footer__item:not(:first-child){
+    display: none;
+  }
+
+  .footer__list{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .container__get__started{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}
+  
